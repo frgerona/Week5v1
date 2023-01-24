@@ -1,0 +1,33 @@
+.landingpage-body {
+    font-family: Montserrat;
+    text-align: center;
+    padding: 6rem;
+    background-color: #F1D3BD;
+    align-items: center;
+  }
+
+  .landingpage-body-center {
+    justify-content: center;
+    display: flex;
+  }
+
+  .container {
+    background-color: white;
+    padding: 1em;
+    width: 310px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .landingpage-body h1 {
+    font-family: Montserrat;
+    font-size: 20px;
+  }
+
+  .landingpage-body form {
+    font-size: 16px;
+  }
+
+  .landingpage-body fieldset {
+    border: none;
+  }

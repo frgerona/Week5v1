@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F1D3BD;
+}
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.books-page h1 {
+    text-align: center;
+    padding: 1em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3em;
+    /* padding-top: 3em;
+    padding-right: 1.5em; */
+    padding-left: 5em;
+}
+
+.grid-item img {
+    width: 50%;
+    height: 50%;
+}
+
+.card__content {
+    padding-top: 1em;
+}
+
+.card__content h2 {
+    font-size: 1rem;
+}
+
+.card__title {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.card__description {
+    font-size: 14px;
+    padding-top: .5em;
+}

@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(/Assets/opacity.png);
+}
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .container {
+    padding: 2em;
+} */
+
+.top-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #B6A497;
+    padding: 1em;
+}
+
+.top-navigation-left img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.top-navigation-right {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.top-navigation-links {
+    display: flex;
+    gap: 2em;
+}
+
+.top-navigation-links a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 1em;
+}
+
+.landingpage-body {
+    margin: 2em;
+}
+
+.landingpage-body-search h1 {
+    font-size: 22px;
+    text-align: center;
+    padding: 1em;
+}
+
+.landingpage-body-center {
+    justify-content: center;
+    display: flex;
+  }
+
+.landingpage-body-center-container {
+    background-color: #F1D3BD;
+    padding: 1em;
+  }
+
+  .landingpage-body-center-container button {
+    background-color: white;
+    border: none;
+    color: black;
+    width: 150px;
+    padding: .5em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Montserrat;  
+}

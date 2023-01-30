@@ -22,6 +22,10 @@ body {
     margin: auto;
 }
 
+.grid-left-top-cover img {
+    cursor: pointer;
+}
+
 .grid-left-top-info {
     display: flex;
     flex-direction: column;
@@ -81,6 +85,10 @@ body {
 
 .grid-right-top-cover {
     margin: auto;
+}
+
+.grid-right-top-cover img {
+    cursor: pointer;
 }
 
 .grid-right-top-info {

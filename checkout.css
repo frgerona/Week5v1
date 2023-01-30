@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    background: #F1D3BD;
+}
+
+.grid-left {
+    width: 315px;
+    height: 1000px;
+    background: #BCAEAE;
+}
+
+.grid-left h1 {
+    padding-top: 40px;
+    padding-left: 30px;
+    font-family: Montserrat;
+    font-size: 35px;
+}
+
+.refine-group {
+    padding-left: 35px;
+}
+
+.refine-group img {
+    cursor: pointer;
+}
+
+.genre {
+    padding-top: 100px;
+}
+
+.languages {
+    padding-top: 100px;
+}
+
+.grid-right {
+    padding-left: 40px;
+}
+
+.grid-right h1 {
+    font-family: Montserrat;
+    font-size: 50px;
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+.checkout-top {
+    display: flex;
+    flex-direction: row;
+    padding-top: 45px;
+}
+
+.cover-panel-imgs img{
+    cursor: pointer;
+}
+
+.cover-panel h2 {
+    font-size: 40px;
+}
+
+.cover-panel-imgs {
+    padding-left: 35px;
+}
+
+.cover-panel p {
+    font-size: 25px;
+    padding-left: 35px;
+}
+
+.title-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 35px;
+}
+
+.title-panel h2 {
+    font-size: 40px;
+    font-family: Kaushan Script;
+    padding-top: 5rem;
+}
+
+.title-panel h3 {
+    font-size: 25px;
+}
+
+.title-panel p {
+    font-size: 25px;
+}
+
+.title-panel button {
+    width: 280px;
+    height: 70px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.checkout-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}

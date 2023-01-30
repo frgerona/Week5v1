@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/application.css" />
+    <link rel="stylesheet" href="/profile.css" />
+    <title>Sacred Wisdom Library Profile Registration</title>
+  </head>
+  <body>
+    <main class="signup">
+      <div class="signup-left">
+        <h1>My Profile <img src="/Assets/question.png" alt="" /></h1>
+        <p>Fill out your registration here</p>
+        <form action="">
+            <div class="form-control-top">
+                <label for="form-control-top" id="form-control-top">CONTACT INFO</label>
+              </div>
+          <div class="form-control">
+                <div class="form-group"></div>
+                <div class="form-group">
+                    <label for="titleSelect">TITLE: </label>&nbsp;&nbsp;
+                <select name="title" id="titleSelect" required>
+                  <option value="blank"></option>
+                  <option value="ms">Ms</option>
+                  <option value="mrs">Mrs</option>
+                  <option value="mr">Mr</option>
+                  <option value="mx">Mx</option>
+                  <option value="noanswer">Prefer not to answer</option>
+                </select></br>
+                </div>
+                <div class="form-group">
+                    <label for="name">NAME:</label>&nbsp;&nbsp;
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="FIRST AND LAST NAME"
+                  required
+                />
+                </div>
+                <div class="form-group">
+                    <label for="username">USERNAME:</label>&nbsp;&nbsp;
+                <input type="text" name="username" id="username" required />
+                </div>
+                <div class="form-group">
+                    <label for="name">DOB:</label>&nbsp;&nbsp;
+                <input
+                  type="text"
+                  name="dob"
+                  id="dob"
+                  placeholder="MM/DD/YYYY"
+                  required
+                />
+                </div>
+                <div class="form-group">
+                    <label for="email">EMAIL ADDRESS:</label>&nbsp;&nbsp;
+                <input type="email" name="email" id="email" required />
+                </div>
+                <div class="form-group">
+                    <label for="password">PASSWORD:</label>&nbsp;&nbsp;
+                <input type="password" name="password" id="password" required />
+                </div>
+                <div class="form-group">
+                    <label for="password">RE-TYPE PASSWORD:</label>&nbsp;&nbsp;
+                <input type="password" name="retypepassword" id="retypepassword" /></br>
+                </div>
+                <button>SUBMIT</button>
+          </div>
+        </form>
+      </div>
+      <div class="signup-right">
+        <div class="upload-control">
+          <label for="upload-control">YOUR PICTURE</label>
+        </div>
+        <img src="/Assets/profileicon.png" alt="" /></br>
+        <button>UPLOAD</button>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+body {
+    background: #F1D3BD;
+}
+
+body h1 {
+    text-align: center;
+}
+
+.bookgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 45px;
+  }
+  
+  .bookitem {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    z-index: 0;
+    background-color: #D9D9D9;
+  }
+  
+  .leftpanel {
+    background-color: black;
+    width: 70px;
+    height: 400px;
+    padding: 0px 5px 0px 5px;
+  }
+  
+  .centerpanel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  
+  .centerpanel-book {
+    width: 200px;
+    height: 330px;
+    z-index: 2;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #left-mcbride img {
+    margin-top: 20px;
+  }
+
+  #center-mcbride {
+    background-image: url(/Assets/books/mcbride.png);
+    margin-top: 40px;
+    margin-left: 25px;
+  }
+
+  #right-mcbride img {
+    margin-left: 85px;
+  }
+
+  #left-thomas img {
+    margin-top: 20px;
+  }
+
+  #center-thomas {
+    background-image: url(/Assets/books/thomas.png);
+    margin-top: 40px;
+    margin-left: 25px;
+  }
+
+  #right-thomas img {
+    margin-left: 85px;
+  }
+
+  #left-mans img {
+    margin-top: 20px;
+  }
+
+  #center-mans {
+    background-image: url(/Assets/books/mans.png);
+    margin-top: 40px;
+    margin-left: 25px;
+  }
+
+  #right-mans img {
+    margin-left: 85px;
+  }
+
+  #left-mbue img {
+    margin-top: 20px;
+  }
+
+  #center-mbue {
+    background-image: url(/Assets/books/mbue.png);
+    margin-top: 40px;
+    margin-left: 25px;
+  }
+
+  #right-mbue img {
+    margin-left: 85px;
+  }
+
+  #left-james img {
+    margin-top: 20px;
+  }
+
+  #center-james {
+    background-image: url(/Assets/books/james.png);
+    margin-top: 40px;
+    margin-left: 25px;
+  }
+
+  #right-james img {
+    margin-left: 85px;
+  }
+
+  #left-noah img {
+    margin-top: 20px;
+  }
+
+  #center-noah {
+    background-image: url(/Assets/books/noah.png);
+    margin-top: 40px;
+    margin-left: 25px;
+  }
+
+  #right-noah img {
+    margin-left: 85px;
+  }
+
+  
+  

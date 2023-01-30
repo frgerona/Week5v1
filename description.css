@@ -1,0 +1,131 @@
+body {
+    background: #F1D3BD;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-left {
+    width: 670px;
+    margin-left: 35px;
+    margin-top: 100px;
+}
+
+.grid-left-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-left-top-cover {
+    margin: auto;
+}
+
+.grid-left-top-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid-left-top-info h2 {
+    font-family: Kaushan Script;
+    font-size: 40px;
+    line-height: 30px;
+}
+
+.grid-left-top-info h3 {
+    font-size: 25px;
+    line-height: 5px;
+}
+
+.grid-left-top-info p {
+    font-size: 19px;
+}
+
+.grid-left-top-info button {
+    width: 280px;
+    height: 70px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.grid-left-middle h2 a {
+    color: black;
+}
+
+.grid-left-bottom {
+    width: 670px;
+    height: 390px;
+    background: #E7E2E2;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.grid-right {
+    width: 670px;
+    margin-top: 100px;
+}
+
+.grid-right-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-right-top-cover {
+    margin: auto;
+}
+
+.grid-right-top-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid-right-top-info h2{
+    font-family: Kaushan Script;
+    font-size: 40px;
+    line-height: 30px;
+}
+
+.grid-right-top-info h3{
+    font-size: 25px;
+    line-height: 5px;
+}
+
+.grid-right-top-info p {
+    font-size: 19px;
+}
+
+.grid-right-top-info button {
+    width: 280px;
+    height: 70px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.grid-right-middle h2 a {
+    color: black;
+}
+
+.grid-right-bottom {
+    width: 670px;
+    height: 390px;
+    background: #E7E2E2;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}

@@ -32,6 +32,10 @@ body {
   gap: 35px;
 }
 
+.nav-buttons a {
+  text-decoration: none;
+}
+
 .standard-button {
   width: 160px;
   height: 70px;

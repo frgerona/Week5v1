@@ -55,7 +55,7 @@ body h1 {
   }
 
   #center-mcbride {
-    background-image: url(/Assets/books/mcbride.png);
+    background-image: url(./Assets/books/mcbride.png);
     margin-top: 40px;
     margin-left: 25px;
   }
@@ -69,7 +69,7 @@ body h1 {
   }
 
   #center-thomas {
-    background-image: url(/Assets/books/thomas.png);
+    background-image: url(./Assets/books/thomas.png);
     margin-top: 40px;
     margin-left: 25px;
   }
@@ -83,7 +83,7 @@ body h1 {
   }
 
   #center-mans {
-    background-image: url(/Assets/books/mans.png);
+    background-image: url(./Assets/books/mans.png);
     margin-top: 40px;
     margin-left: 25px;
   }
@@ -97,7 +97,7 @@ body h1 {
   }
 
   #center-mbue {
-    background-image: url(/Assets/books/mbue.png);
+    background-image: url(./Assets/books/mbue.png);
     margin-top: 40px;
     margin-left: 25px;
   }
@@ -111,7 +111,7 @@ body h1 {
   }
 
   #center-james {
-    background-image: url(/Assets/books/james.png);
+    background-image: url(./Assets/books/james.png);
     margin-top: 40px;
     margin-left: 25px;
   }
@@ -125,7 +125,7 @@ body h1 {
   }
 
   #center-noah {
-    background-image: url(/Assets/books/noah.png);
+    background-image: url(./Assets/books/noah.png);
     margin-top: 40px;
     margin-left: 25px;
   }

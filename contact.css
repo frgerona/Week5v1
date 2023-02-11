@@ -7,7 +7,7 @@ body {
 .landingbox {
     width: 750px;
     height: 900px;
-    background-image: url(/Assets/bookshelf.png);
+    background-image: url(./Assets/bookshelf.png);
     margin-top: 80px;
     margin-bottom: 80px;
     border-radius: 5px;

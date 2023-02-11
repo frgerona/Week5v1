@@ -7,14 +7,14 @@
     gap: 10px;
     width: 100%;
     height: 900px;
-    background-image: url('/Assets/welcome/image\ 1.png');
+    background-image: url('./Assets/welcome/image\ 1.png');
   }
   
   .searchbar_input {
     width: 845px;
     height: 70px;
     border-radius: 50px;
-    background-image: url('/Assets/welcome/searchicon.svg');
+    background-image: url('./Assets/welcome/searchicon.svg');
     background-position: bottom 12px left 780px;
     background-repeat: no-repeat;
     margin-bottom: 15px;
@@ -82,26 +82,26 @@
   }
   
   #obama-book {
-    background-image: url('/Assets/welcome/mobama.png');
+    background-image: url('./Assets/welcome/mobama.png');
   }
   
   #prophets-book {
-    background-image: url('/Assets/welcome/prophets.png');
+    background-image: url('./Assets/welcome/prophets.png');
   }
   
   #birds-book {
-    background-image: url('/Assets/welcome/birds.png');
+    background-image: url('./Assets/welcome/birds.png');
   }
   
   #stella-book {
-    background-image: url('/Assets/welcome/stella.png');
+    background-image: url('./Assets/welcome/stella.png');
   }
   
   #perish-book {
-    background-image: url('/Assets/welcome/perish.png');
+    background-image: url('./Assets/welcome/perish.png');
   }
   
   #blackcake-book {
-    background-image: url('/Assets/welcome/blackcake.png');
+    background-image: url('./Assets/welcome/blackcake.png');
   }
   

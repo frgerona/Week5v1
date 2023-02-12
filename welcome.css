@@ -18,7 +18,7 @@
     background-position: bottom 12px left 780px;
     background-repeat: no-repeat;
     margin-bottom: 15px;
-    font-size: 32px;
+    font-size: 24px;
     padding-left: 50px;
   }
   
@@ -40,13 +40,13 @@
   }
   
   .welcomebox-left h1 {
-    font-size: 125px;
+    font-size: 100px;
     font-weight: 400;
     line-height: 30px;
   }
 
   .welcomebox-left h2 {
-    font-size: 32px; 
+    font-size: 30px; 
   }
 
   .register-button {
@@ -55,7 +55,7 @@
     background: white;
     border-radius: 5px;
     border: none;
-    font-size: 30px;
+    font-size: 24px;
     cursor: pointer;
   }
 
@@ -65,7 +65,7 @@
   }
 
   .welcomebox-right h2 {
-    font-size: 40px;
+    font-size: 36px;
     text-align: center;
   }
 

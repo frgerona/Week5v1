@@ -4,19 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./application.css" />
     <link rel="stylesheet" href="./profile.css" />
     <title>Sacred Wisdom Library Profile Registration</title>
   </head>
   <body>
+    <div class="heading">
+      <h1>My Profile <img src="./Assets/question.png" alt="FYI question button" /></h1>
+        <p>Fill out your registration here</p>
+    </div>
     <main class="signup">
       <div class="signup-left">
-        <h1>My Profile <img src="./Assets/question.png" alt="FYI question button" /></h1>
-        <p>Fill out your registration here</p>
         <form action="">
-            <div class="form-control-top">
-                <label for="form-control-top" id="form-control-top">CONTACT INFO</label>
-              </div>
+            <div class="form-control-top">CONTACT INFO</div>
           <div class="form-control">
                 <div class="form-group"></div>
                 <div class="form-group">
@@ -66,16 +65,14 @@
                     <label for="password">RE-TYPE PASSWORD:</label>&nbsp;&nbsp;
                 <input type="password" name="retypepassword" id="retypepassword" /></br>
                 </div>
-                <button>SUBMIT</button>
+                <button class="button">SUBMIT</button>
           </div>
         </form>
       </div>
       <div class="signup-right">
-        <div class="upload-control">
-          <label for="upload-control">YOUR PICTURE</label>
-        </div>
+        <div class="form-control-top">YOUR PICTURE</div>
         <img src="./Assets/profileicon.png" alt="Profile photo icon" /></br>
-        <button>UPLOAD</button>
+        <button class="button">UPLOAD</button>
       </div>
     </main>
   </body>

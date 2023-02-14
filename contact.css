@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+* {
+    font-family: Montserrat; 
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -5,8 +11,6 @@ body {
 }
 
 .landingbox {
-    width: 750px;
-    height: 900px;
     background-image: url(./Assets/bookshelf.png);
     margin-top: 80px;
     margin-bottom: 80px;
@@ -17,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px;
 }
 
 .landingbox-content form {
@@ -26,37 +31,46 @@ body {
 }
 
 .landingbox-content h1 {
-    font-size: 115px;
+    font-family: Kaushan Script;
+    font-size: 90px;
     font-weight: 400;
     line-height: 50px;
 }
 
 .landingbox-content form input {
-    width: 500px;
-    height: 70px;
+    width: 100%;
     font-size: 25px;
     padding: 10px 10px;
 }
 
 .landingbox-content form textarea {
-    width: 500px;
+    width: 100%;
     height: 265px;
     font-size: 25px;
     padding: 20px 10px 10px 10px;
 }
 
 .landingbox-content form button {
-    width: 255px;
-    height: 55px;
     font-size: 25px;
     background: black;
     color: white;
     cursor: pointer;
     margin: auto;
     border-radius: 5px;
+    padding: 20px;
 }
 
 .landingbox-content form button a {
     color: white;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .landingbox {
+        width: 100%;
+    }
+
+    .landingbox-content h1 {
+        font-size: 60px;
+    }
 }

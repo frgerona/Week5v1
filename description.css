@@ -2,30 +2,13 @@ body {
     background: #F1D3BD;
 }
 
-@media only screen and (min-width: 768px) {
-    .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-}
-
-.grid-left {
-    width: 670px;
-    margin-left: 35px;
-    margin-top: 100px;
+.container {
+    padding: 50px 50px;
 }
 
 .grid-left-top {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid-left-top-cover {
@@ -34,12 +17,6 @@ body {
 
 .grid-left-top-cover img {
     cursor: pointer;
-}
-
-.grid-left-top-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .grid-left-top-info h2 {
@@ -57,9 +34,9 @@ body {
     font-size: 19px;
 }
 
-.grid-left-top-info button {
-    width: 280px;
-    height: 70px;
+.button {
+    width: 200px;
+    padding: 10px;
     color: black;
     background-color: white;
     font-weight: bold;
@@ -75,22 +52,16 @@ body {
 }
 
 .grid-left-bottom {
-    width: 670px;
-    height: 390px;
+    width: 70%;
     background: #E7E2E2;
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
     font-size: 15px;
 }
 
-.grid-right {
-    width: 670px;
-    margin-top: 100px;
-}
-
 .grid-right-top {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid-right-top-cover {
@@ -99,12 +70,6 @@ body {
 
 .grid-right-top-cover img {
     cursor: pointer;
-}
-
-.grid-right-top-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .grid-right-top-info h2{
@@ -122,28 +87,36 @@ body {
     font-size: 19px;
 }
 
-.grid-right-top-info button {
-    width: 280px;
-    height: 70px;
-    color: black;
-    background-color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
 .grid-right-middle h2 a {
     color: black;
 }
 
 .grid-right-bottom {
-    width: 670px;
-    height: 390px;
+    width: 70%;
     background: #E7E2E2;
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
     font-size: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-left-top-cover {
+        display: none;
+    }
+
+    .grid-right-top-cover {
+        display: none;
+    }
 }

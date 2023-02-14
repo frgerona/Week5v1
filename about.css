@@ -3,9 +3,19 @@ body {
 }
 
 .title {
-    font-size: 100px;
-    font-weight: 400;
+    font-size: 50px;
+    font-weight: 700;
     margin-left: 100px;
+}
+
+.landingbox-right {
+    align-self: center;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.landingbox-right h2 {
+    font-size: 36px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -24,19 +34,12 @@ body {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        width: 570px;
-        height: 1200px;
+        width: 75%;
         background: white;
         margin: auto;
     }
-}
 
-.landingbox-right {
-    align-self: center;
-    text-align: center;
-    margin-right: 20px;
-}
-
-.landingbox-right h2 {
-    font-size: 36px;
+    .landingbox img {
+        width: 100%;
+    }
 }

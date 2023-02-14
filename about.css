@@ -9,21 +9,20 @@ body {
 }
 
 .landingbox-right {
-    align-self: center;
-    text-align: center;
-    margin-right: 20px;
+    /* align-self: center;
+    text-align: center; */
+    margin: auto;
 }
 
 .landingbox-right h2 {
-    font-size: 36px;
+    font-size: 32px;
 }
 
 @media only screen and (min-width: 768px) {
     .landingbox {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 1200px;
-        height: 570px;
+        width: 75%;
         background: white;
         margin: 20px 0 0 100px;
     }
@@ -35,6 +34,7 @@ body {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         width: 75%;
+        height: 100%;
         background: white;
         margin: auto;
     }

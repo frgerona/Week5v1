@@ -1,0 +1,42 @@
+body {
+    background-color: #F1D3BD;
+    padding-left: 40px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 40px;
+}
+
+.landingbox {
+    display: flex;
+    background: white;
+    width: 75%;
+}
+
+.landingbox-left img {
+    height: 100%;
+}
+
+.landingbox-right {
+    align-self: center;
+    text-align: center;
+}
+
+.landingbox-right h2 {
+    padding: 20px;
+}
+
+/* @media only screen and (min-width: 768px) {} */
+
+@media only screen and (max-width: 767px) {
+    .landingbox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landingbox img {
+        width: 100%;
+    }
+}

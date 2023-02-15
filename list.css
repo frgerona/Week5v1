@@ -134,7 +134,7 @@ body h1 {
     margin-left: 85px;
   }
 
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 767px) {
     .bookgrid {
       display: flex;
       flex-wrap: wrap;

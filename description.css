@@ -116,7 +116,15 @@ body {
         display: none;
     }
 
+    .grid-left-top-info h2 {
+        line-height: 40px;
+    }
+
     .grid-right-top-cover {
         display: none;
+    }
+
+    .grid-right-top-info h2 {
+        line-height: 40px;
     }
 }

@@ -10,6 +10,16 @@ body {
     background-color: #F1D3BD;
 }
 
+/* .nav-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background: #BCAEAE;
+    justify-content: space-between;
+    padding: 0 35px;
+} */
+
 .landingbox {
     background-image: url(./Assets/bookshelf.png);
     margin-top: 80px;

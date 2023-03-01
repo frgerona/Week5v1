@@ -4,8 +4,8 @@
   font-family: Montserrat, sans-serif;
 }
 
-h1 {
-  font-family: Kaushan Script;
+html, body {
+  overflow-x: hidden;
 }
 
 
@@ -13,6 +13,10 @@ body {
   width: 100%;
   height: 100%;
   margin-left: -8px;
+}
+
+h1 {
+  font-family: Kaushan Script;
 }
 
 .nav-bar {

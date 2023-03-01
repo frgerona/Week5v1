@@ -110,6 +110,10 @@
     }
     
     @media only screen and (max-width: 667px) {
+      html, body {
+        overflow-x: hidden;
+      }
+      
       .welcomebox {
         display: grid;
         grid-template-columns: 1fr;

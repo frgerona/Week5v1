@@ -22,9 +22,11 @@ body {
 
 .landingbox {
     background-image: url(./Assets/bookshelf.png);
+    background-repeat: no-repeat;
     margin-top: 80px;
     margin-bottom: 80px;
     border-radius: 5px;
+    width: 40%;
 }
 
 .landingbox-content {
@@ -76,6 +78,10 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    
     .landingbox {
         width: 100%;
     }

@@ -14,8 +14,7 @@ body h1 {
   }
   
   .bookitem {
-    width: 700px;
-    height: 400px;
+    width: 100%;
     display: flex;
     z-index: 0;
     background-color: #D9D9D9;
@@ -40,7 +39,6 @@ body h1 {
   
   .centerpanel-book {
     width: 200px;
-    height: 330px;
     z-index: 2;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,7 +132,11 @@ body h1 {
     margin-left: 85px;
   }
 
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 768px) {
+    html, body {
+      overflow-x: hidden;
+    }
+    
     .bookgrid {
       display: flex;
       flex-wrap: wrap;
@@ -142,7 +144,7 @@ body h1 {
     }
 
     .centerpanel-info {
-      margin-left: 10px;
+      /* margin-left: 10px; */
       font-size: 10px;
     }
 
@@ -152,5 +154,17 @@ body h1 {
 
     .rightpanel {
       display: none;
+    }
+  }
+
+  @media only screen and (max-width: 820px) {
+    html, body {
+      overflow-x: hidden;
+    }
+
+    .bookgrid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
     }
   }

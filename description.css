@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     background: #F1D3BD;
 }
@@ -100,9 +104,6 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-    html, body {
-        overflow-x: hidden;
-    }
     
     .container {
         display: grid;
@@ -111,9 +112,6 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
-    html, body {
-        overflow-x: hidden;
-    }
     
     .container {
         display: grid;
